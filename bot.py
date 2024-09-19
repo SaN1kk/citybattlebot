@@ -18,7 +18,6 @@ config = load_config(path=".env")
 bot = Bot(token=config.tg_bot.token, default=DefaultBotProperties(parse_mode="HTML"))
 
 db = DataBase()
-db.end_game(798070490)
 
 cites_ru = get_cites_ru()
 cites_sng = get_cites_sng()
